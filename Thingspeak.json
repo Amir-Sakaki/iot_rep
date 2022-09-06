@@ -1,0 +1,5 @@
+{
+    "catalog_address": "http://127.0.0.1:8585/catalog",
+    "URL" : "https://api.thingspeak.com/update?api_key=TIMCJ9BQGOE3QOSO&field1=0",
+    "KEY" : "TIMCJ9BQGOE3QOSO"
+}

@@ -1,0 +1,29 @@
+{
+    "services": {
+        "REST": [
+            {
+                "service_id": "motion",
+                "URL": "http://127.0.0.1:8080/motion",
+                "port": "8080"
+            },
+            {
+                "service_id": "thingSpeak_GET",
+                "URL": "http://127.0.0.1:8181/getstatus",
+                "port": "8181"
+            },
+            {
+                "service_id": "telegram_POST",
+                "URL": "http://127.0.0.1:8282/alert",
+                "port": "8282"
+            }
+        ],
+        "MQTT": [
+            {
+                "service_id": "mqtt_driverStatus",
+                "broker_address": "mqtt.eclipseprojects.io",
+                "broker_port": 1883,
+                "topic": "driverStatus"
+            }
+        ]
+    }
+}
